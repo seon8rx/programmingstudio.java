@@ -11,8 +11,9 @@ public class Main {
 //        pStudio.J022();
 //        pStudio.J023();
 //        pStudio.J024();
-        pStudio.J025();
-//        pStudio.J026();
+//        pStudio.J025();
+//        pStudio.J027();
+        pStudio.J029();
     }
 
     void J021(){
@@ -147,7 +148,57 @@ public class Main {
         sc.close();
     }
 
-    void J026(){
+    void J027(){
+        Scanner sc = new Scanner(System.in);
+        int total = sc.nextInt();
+        int[] height = new int[total];
+        int[] weight = new int[total];
+        double[] bmi = new double[total];
+        int count=0;
 
+        for(int i=0; i<total; i++){
+            height[i] = sc.nextInt();
+            weight[i] = sc.nextInt();
+            bmi[i] = weight[i] / Math.pow(height[i]/100.0, 2);
+            if(bmi[i]>=25) count++;
+        }
+
+        System.out.print("Overweight person -");
+        for(int i=0; i<total; i++){
+            if(bmi[i]>=25) {
+                System.out.print(' ');
+                System.out.print(i+1);
+            }
+        }
+        System.out.println("\nTotal - " + count);
+
+        sc.close();
+    }
+
+    void J029(){
+        int[] number = new int[10];
+        int count=0;
+
+        Scanner sc = new Scanner(System.in);
+
+        for(int i=0; i<10; i++){
+            System.out.print("Enter #" + (i+1) + " number > ");
+            number[i] = sc.nextInt();
+            count++;
+            if(i!=0) {
+                for (int a = 0; a < i; a++) {
+                    if (number[i] == number[a]) {
+                        System.out.println("Duplicated! Retry.");
+                        count--;
+                        i--;
+                        break;
+                    }
+                }
+            }
+        }
+        System.out.print("Numbers -");
+        for(int i=0; i<10; i++){
+            System.out.print(" " + number[i]);;
+        }
     }
 }
