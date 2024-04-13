@@ -13,7 +13,7 @@ public class Main {
 //        pStudio.J024();
 //        pStudio.J025();
 //        pStudio.J027();
-        pStudio.J029();
+//        pStudio.J029();
     }
 
     void J021(){
@@ -200,5 +200,6 @@ public class Main {
         for(int i=0; i<10; i++){
             System.out.print(" " + number[i]);;
         }
+        sc.close();
     }
 }
