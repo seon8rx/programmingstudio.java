@@ -10,7 +10,8 @@ public class Main {
 //        pStudio.J032();
 //        pStudio.J033();
 //        pStudio.J034();
-        pStudio.J035();
+//        pStudio.J035();
+        pStudio.J036();
     }
 
     public void J031(){
@@ -153,6 +154,29 @@ public class Main {
         System.out.println(sum);
 
         sc.close();
+
+    }
+
+    public void J036(){
+        Scanner sc = new Scanner(System.in);
+        String input = sc.nextLine();
+        input = input.replaceAll("[^a-zA-Z]", "");
+        input = input.toLowerCase();
+
+        int check = 0;
+
+        for(int i=0; i<input.length(); i++){
+            if(input.charAt(i) != input.charAt(input.length()-1-i)){
+                check = 1;
+                break;
+            }
+        }
+
+        if(check == 1){
+            System.out.println("No");
+        }else{
+            System.out.println("Yes");
+        }
 
     }
 
