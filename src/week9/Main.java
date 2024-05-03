@@ -11,16 +11,17 @@ public class Main {
 //        pStudio.J042();
 //        pStudio.J043();
 //        pStudio.J044();
-//        pStudio.J045();
+        pStudio.J045();
     }
 
     public void J041(){
         Lotto lotto = new Lotto();
+        System.out.print("6 numbers are created ");
+        lotto.printNumbers();
         Scanner sc = new Scanner(System.in);
-
         while(true){
             System.out.println("================================================================================");
-            System.out.println("Menu\np for print 6 random numbers, r for 6 different random numbers, any key for exit");
+            System.out.println("Menu\np for print 6 random numbers already created, r for 6 different random numbers, any key for exit");
             String input = sc.next();
             if(input.equals("p")){
                 lotto.printNumbers();
@@ -28,6 +29,7 @@ public class Main {
             else if(input.equals("r")){
                 lotto.remakeAuto();
                 System.out.println(">>6 new random numbers have been generated.<<");
+                lotto.printNumbers();
             }
             else break;
         }
