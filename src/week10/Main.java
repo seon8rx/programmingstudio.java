@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Main pStudio = new Main();
 
-        pStudio.J055();
+        pStudio.J054();
     }
 
     public void J051(){
@@ -54,18 +54,21 @@ public class Main {
         int num = sc.nextInt();
         Score s = new Score(num);
         s.getScore();
-        System.out.println("Which student's information do you need? : 1 - " + num);
+        System.out.println("Which subject's information do you need? (1 - Korean, 2 - Math, 3 - English) : ");
         int n;
         while(true){
             n = sc.nextInt();
-            if(n>=1 && n<=num) break;
-            else System.out.println("range 1 - " + num);
+            if(n>=1 && n<=3) break;
+            else System.out.println("1 - Korean, 2 - Math, 3 - English");
         }
-        System.out.println("Which subject's score information do you need? (Korean, Math, English) : ");
-        String input;
-        input = sc.next();
 
-        s.printScore(n, input);
+        String[] subject = {"Korean", "Math", "English"};
+
+        s.printScore(n-1, subject[n-1]);
+
+
+
+
         sc.close();
     }
 
@@ -246,25 +249,25 @@ class Score{
 
     public void printScore(int num, String classname){
         String[] subject = {"Korean", "Math", "English"};
-        System.out.println("\nScore information for Student #" + num);
-        for(int j=0; j<jumsu[0].length; j++){
-            System.out.print("=> ");
-            System.out.println(subject[j] + " " + jumsu[num-1][j]);
-        }
-        System.out.println("Total score : " + sum_student[num-1]);
-        System.out.print("Average score : " + Math.round(average_student[num-1]*10.0)/10.0);
-        if(average_student[num-1]>=90) System.out.println(" (A)");
-        else if(average_student[num-1]>=80) System.out.println(" (B)");
-        else if(average_student[num-1]>=70) System.out.println(" (C)");
-        else if(average_student[num-1]>=60) System.out.println(" (D)");
-        else System.out.println(" (F)");
-
-        for(int i=0; i<subject.length; i++){
-            if(subject[i].equals(classname)){
-                System.out.println(">> Total score of " + subject[i] + " : " + sum_class[i]);
-                System.out.println(">> Average score of " + subject[i] + " : " + Math.round(average_class[i]*10.0)/10.0);
+        for(int i=0; i<count; i++){
+            System.out.println("\nScore information for Student #" + (i+1));
+            for(int j=0; j<jumsu[0].length; j++){
+                System.out.print("=> ");
+                System.out.println(subject[j] + " " + jumsu[i][j]);
             }
+            System.out.println("Total score : " + sum_student[i]);
+            System.out.print("Average score : " + Math.round(average_student[i]*10.0)/10.0);
+            if(average_student[i]>=90) System.out.println(" (A)");
+            else if(average_student[i]>=80) System.out.println(" (B)");
+            else if(average_student[i]>=70) System.out.println(" (C)");
+            else if(average_student[i]>=60) System.out.println(" (D)");
+            else System.out.println(" (F)");
         }
+
+        System.out.println();
+        System.out.println(">> Total score of " + subject[num] + " : " + sum_class[num]);
+        System.out.println(">> Average score of " + subject[num] + " : " + Math.round(average_class[num]*10.0)/10.0);
+
     }
 
 }
