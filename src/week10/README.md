@@ -11,4 +11,6 @@
 ### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week10/screenshots/J053_2.png' width = "700"><br>
 ### J054 국영수 점수 분석하기 - 3 <br> <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week10/screenshots/J054_1.png' width = "700"><br>
 ### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week10/screenshots/J054_2.png' width = "700"><br>
+### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week10/screenshots/J054_3.png' width = "700"><br>
+### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week10/screenshots/J054_4.png' width = "700"><br>
 ### J055 비만도 계산기 <br> <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week10/screenshots/J055.png' width = "700"><br>
