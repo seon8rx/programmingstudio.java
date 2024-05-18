@@ -12,5 +12,5 @@
 ### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week11/screenshots/J062_4.png' width = "700"><br>
 ### J053 일정 관리 프로그램 ver.1 <br> <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week11/screenshots/J063_1.png' width = "700"><br>
 ### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week11/screenshots/J063_2.png' width = "700"><br>
-### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week11/screenshots/J064_3.png' width = "700"><br>
-### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week11/screenshots/J064_4.png' width = "700"><br>
+### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week11/screenshots/J063_3.png' width = "700"><br>
+### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week11/screenshots/J063_4.png' width = "700"><br>
