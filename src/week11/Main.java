@@ -1,44 +1,12 @@
+package week11;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Main pStudio = new Main();
-        pStudio.hasset();
-    }
-
-    public void hasset(){
-        SetHashObject sh = new SetHashObject();
-        sh.add("Number 1");
-        sh.add("Number 2");
-        sh.add("Number 2");
-        sh.add("Number 3");
-        System.out.println("Size ? > " + sh.size());
-        System.out.print("now we have : ");
-        for(int i=0; i<sh.size(); i++){
-            System.out.print(sh.sethash[i]);
-            if(i!=sh.size()-1) System.out.print(" ");
-        }
-        System.out.println();
-        System.out.println("does is have \"Number 4\" ? > " + sh.contains("Number 4"));
-        System.out.println("does is have \"Number 2\" ? > " + sh.contains("Number 2"));
-        System.out.println("Remove \"Number 2\"");
-        sh.remove("Number 2");
-        System.out.print("now we have : ");
-        for(int i=0; i<sh.size(); i++){
-            System.out.print(sh.sethash[i]);
-            if(i!=sh.size()-1) System.out.print(" ");
-        }
-        System.out.println("Cleared and added \"cleared\"");
-        sh.clear();
-        sh.add("cleared");
-        System.out.print("now we have : ");
-        for(int i=0; i<sh.size(); i++){
-            System.out.print(sh.sethash[i]);
-            if(i!=sh.size()-1) System.out.print(" ");
-        }
-        System.out.println();
-
+        pStudio.j061();
     }
 
     public void j061(){
