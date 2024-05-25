@@ -8,6 +8,6 @@
 ### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week12/screenshots/J071_4.png' width = "700">
 ### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week12/screenshots/J071_5.png' width = "700">
 ### J072 간단한 채팅 프로그램 분석 및 실행하기 <br> <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week12/screenshots/J072_1.png' width = "700">
-### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week12/screenshots/J071_2.png' width = "700">
-### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week12/screenshots/J071_3.png' width = "700">
-### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week12/screenshots/J071_4.png' width = "700">
+### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week12/screenshots/J072_2.png' width = "700">
+### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week12/screenshots/J072_3.png' width = "700">
+### <img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week12/screenshots/J072_4.png' width = "700">
