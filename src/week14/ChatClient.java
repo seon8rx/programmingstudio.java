@@ -74,7 +74,7 @@ class InputThread extends Thread{
             String line = null;
             while((line = br.readLine()) != null){
                 Date receive = new Date(); //j094
-                System.out.println(simpleDateFormat.format(receive.getTime()) + line); //j094
+                System.out.println(simpleDateFormat.format(receive.getTime()) + " " + line); //j094
             }
         }catch(Exception ex){
         }finally{
