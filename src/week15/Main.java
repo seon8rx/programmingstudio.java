@@ -42,7 +42,7 @@ public class Main {
                     System.out.print("\tTo Search - ");
                     Book toSearch = library.search();
                     if(toSearch != null){
-                        System.out.println("\t" + toSearch.getIdNum() + "is found :\n" + toSearch);
+                        System.out.println("\t" + toSearch.getIdNum() + " is found :\n" + toSearch);
                     }else{
                         System.out.println("\tCouldn't find the book from the list.");
                     }
