@@ -29,3 +29,27 @@
 FileIO를 이용하여 data.txt 파일에 목록에 있는 도서의 정보들을 형식에 맞추어 저장합니다.<br><br>
 "0. exit" - 프로그램을 종료하는 메뉴<br>
 프로그램을 종료합니다. 단, 이때 목록의 내용을 저장하는 것과 프로그램을 종료하는 것은 별도로 작동합니다.<br><br>
+
+<img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week15/screenshots/J101_11.png' width = "700">
+<img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week15/screenshots/J101_12.png' width = "700">
+주어진 3번의 조건을 확인하는 이미지로 Main 메서드를 시작하며 data.txt에서 정보를 읽어들인 정보를 출력하여 확인한 결과 이미지.<br><br>
+<img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week15/screenshots/J101_21.png' width = "700">
+<img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week15/screenshots/J101_22.png' width = "700">
+1번 메뉴를 실행하며 식별번호와 도서명만 가진 도서, 추가로 저자명을 가진 도서, 추가로 분류번호를 가진 도서, 저자명과 분류번호 모두 가진 도서를 목록에 추가하고 
+이미 존재하는 식별번호에 다른 도서명을 가진 도서를 추가하는 상황 같은 도서명을 가진 도서를 추가하는 상황의 결과 이미지<br><br>
+<img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week15/screenshots/J101_31.png' width = "700">
+<img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week15/screenshots/J101_32.png' width = "700">
+3번 메뉴를 실행하며 도서 목록에 저장된 도서의 정보를 수정하는 상황의 결과 이미지. 목록에 존재하지 않는 식별번호를 입력할 경우 찾을 수 없다는 문구를 출력하고 
+입력한 식별번호의 도서가 목록에 존재할 경우 선택에 따라서 식별번호, 도서명, 저자명, 분류번호, 도서의 수의 정보를 수정합니다.<br><br>
+<img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week15/screenshots/J101_41.png' width = "700">
+<img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week15/screenshots/J101_42.png' width = "700">
+<img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week15/screenshots/J101_43.png' width = "700">
+4번 메뉴를 선택하여 식별번호를 입력받고 해당 식별번호의 도서가 목록에 존재하지 않을 경우 찾을 수 없다는 문구를 출력하고 존재하는 경우 해당 도서를 도서 목록에서 제거하는 결과.<br>
+5번 메뉴를 선택하여 식별번호를 입력받고 해당 식별번호의 도서가 목록에 존재하지 않을 경우 찾을 수 없다는 문구를 출력하고 존재한다면 찾았다는 문구와 함께 해당 도서의 정보를 출력하는 결과.<br>
+6번 메뉴를 선택하여 분류번호를 입력받고 해당 분류번호가 도서 목록에 존재하지 않을 경우 찾을 수 없다는 문구를 출력하고 존재한다면 해당 분류번호를 갖는 모든 도서를 목록에서 찾아 출력하는 결과.<br>
+7번 메뉴를 선택하여 현재 도서목록의 내용을 data.txt파일에 저장한 후 저장되었다는 문구를 출력하고 0번을 선택하여 프로그램을 종료하는 결과. 3가지의 결과를 포함한 이미지<br><br>
+<img src='https://github.com/seon8rx/22100110_KSG_Java/blob/main/src/week15/screenshots/J101_44.png' width = "700">
+프로그램을 종료하기 전 목록에 존재하던 도서들의 정보를 형식에 맞게 저장한 data.txt 파일의 결과 이미지.<br><br>
+<제작소감>: 학기 초 CRUD에 대해서 배우고 제작을 해봤지만, 처음 이번 과제의 내용과 조건들을 확인했을 때 막막함이 있었습니다. 단순 CRUD를 제작하는 것 역시 아직 익숙하거나 쉽게 만들지 못한다고 생각을 했는데 추가적으로 
+자바의 내용 중 인터페이스, 상속, Collection, FileIO까지 사용을 해야하는 부분에서 굉장히 어렵게 다가왔습니다. 프로그램을 제작하며 어느 부분에서 어떻게 적용하여 사용할지 감이 안 잡혔지만, 하나하나 이번 학기 동안 
+배운 내용들을 되돌아보며 차근차근 진행한 결과 만족스럽게 완성할 수 있었습니다.
